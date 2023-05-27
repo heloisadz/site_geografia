@@ -1,0 +1,242 @@
+body{
+height: 100vh;
+padding: 0;
+margin: 0;
+background-color: rgb(203, 209, 214);
+}
+
+.topo{
+height: 120px;
+width: 100%;
+background-color:white;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Bahiana', cursive;
+font-size: 30px;
+}
+.menu{
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: large;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ind{
+height: 1000px;
+width: 100%;
+background-color: rgb(137, 137, 139);
+display: grid;
+grid-template-columns: 50% 50%;
+grid-template-rows: 100%;
+grid-template-areas: "indi indp";
+}
+.ind a:link{
+    color: black;
+}
+.ind a:visited{
+    color: black;
+}
+.indi{
+margin: 20px;
+grid-area: indi;
+display: grid;
+background-color:rgb(207, 207, 212);
+border-radius: 30px;
+grid-template-columns: 30% 70%;
+grid-template-rows: 15% 17% 17% 17% 17% 17%;
+grid-template-areas: "tit tit"
+                     "ind1 sin1"
+                     "ind2 sin2"
+                     "ind3 sin3"
+                     "ind4 sin4"
+                     "ind5 sin5";
+}
+.titi{
+    grid-area: tit;
+    font-size:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bahiana', cursive;
+}
+.i1{ grid-area: ind1;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.sin1{grid-area: sin1;
+display: flex;
+flex-direction: column;
+align-items:center;
+justify-content:start;
+text-align: center;
+margin:0;
+padding: 8px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.i2{grid-area: ind2;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 15px;
+}
+.sin2{grid-area: sin2;
+display: flex;
+flex-direction: column;
+align-items:center;
+justify-content: center;
+text-align:center;
+padding: 8px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.i3{grid-area: ind3;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.sin3{grid-area: sin3;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align:center;
+padding: 8px;
+display: flex;
+flex-direction: column;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.i4{grid-area: ind4;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.sin4{grid-area: sin4;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align:center;
+padding: 8px;
+display: flex;
+flex-direction: column;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.i5{grid-area: ind5;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.sin5{grid-area: sin5;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align:center;
+padding: 8px;
+display: flex;
+flex-direction: column;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.indp{
+    margin: 20px;
+    grid-area: indp;
+    display: grid;
+    background-color:rgb(207, 207, 212);
+    border-radius: 30px;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 15% 17% 17% 17% 17% 17%;
+    grid-template-areas: "tit tit"
+                         "ind1 sin1"
+                         "ind2 sin2"
+                         "ind3 sin3"
+                         "ind4 sin4"
+                         "ind5 sin5";
+}
+.titp{
+    grid-area: tit;
+    font-size:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bahiana', cursive;
+}
+
+.ind1{ grid-area: ind1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .s1{grid-area: sin1;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+    padding: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .ind2{grid-area: ind2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    }
+    .s2{grid-area: sin2;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+    padding: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .ind3{grid-area: ind3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .s3{grid-area: sin3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .ind4{grid-area: ind4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .s4{grid-area: sin4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .ind5{grid-area: ind5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .s5{grid-area: sin5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+

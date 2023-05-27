@@ -1,0 +1,177 @@
+body{
+padding: 0;
+margin: 0;
+height: 1100px;
+background-color: blueviolet;
+}
+.container{
+display: grid;
+height: 100%;
+width: 100%;
+grid-template-columns:40% 50% 10% ;
+grid-template-rows: 15% 5% 75% 5% ;
+grid-template-areas: "topo topo topo"
+                     "menu menu menu"
+                     "conteudo conteudo conteudo"
+                     "rodape rodape rodape" ;
+background-color: #abceff;
+}
+.header{
+    background-color: white;
+    grid-area: topo;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:15% 85% ;
+    grid-template-areas:"pre"
+                        "tit" ;
+}
+.pretit{
+width: 100%;
+display: flex;
+flex-direction: row;
+align-content:flex-end;
+justify-content: center;
+justify-items: center;
+align-items:center;
+grid-area: pre;
+background-color: #cbd3da;
+}
+
+.titulo{
+    grid-area: tit;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 100%;
+    grid-template-areas: "tit1 tit2 tit3";
+    background-color: white;
+    font-family: 'Bahiana', cursive;
+    font-size: xx-large;
+}
+.tit1{
+grid-area: tit1;
+justify-content: center;
+align-content: space-around;
+align-items: center;
+display: flex;
+}
+
+.tit2{
+grid-area: tit2;
+text-align: center;
+justify-content: center;
+align-content: space-around;
+align-items: center;
+display: flex;
+}
+.tit3{
+    grid-area: tit3;
+    justify-content: center;
+align-content: space-around;
+align-items: center;
+display: flex;
+}
+
+.menu{
+background-color: gray;
+grid-area: menu;
+color: black;
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+text-align: center;
+top: 0;
+position: sticky;
+font-size: large;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main{
+background-color: rgb(164, 167, 167);
+grid-area: conteudo;
+display: grid;
+grid-template-columns:50% 50%;
+grid-template-rows: 100%;
+grid-template-areas: "cont1 cont2";
+}
+
+.idoso{
+grid-area: cont1;
+background-color: #dadfe2;
+margin: 20px;
+border-radius: 15px;
+justify-content: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.titui{
+    width: 100%;
+    height: 13%;
+    display: flex;
+    font-family: 'Bahiana', cursive;
+    font-size: 30px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 50px;
+}
+.conti{
+
+height: 95%;
+width: 80%;
+justify-content: center;
+align-items: center;
+font-family: 'Manrope', sans-serif;
+text-align: justify;
+font-weight: bold
+}
+.conti img{
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.pcd{
+grid-area: cont2;
+background-color: #dadfe2;
+margin: 20px;
+border-radius: 15px;
+justify-content: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.titup{
+    width: 100%;
+    height: 13%;
+    display: flex;
+    font-family: 'Bahiana', cursive;
+    font-size: 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+.contp{
+
+height: 95%;
+width: 80%;
+justify-content: center;
+align-items: center;
+font-family: 'Manrope', sans-serif;
+font-weight: bold;
+text-align: justify;
+}
+.contp img{
+    border-radius: 15px;
+    margin: 3px;
+}
+.footer{
+background-color: #c9cfd3;
+grid-area: rodape;
+}

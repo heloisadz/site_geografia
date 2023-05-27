@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    height: 1000px;
+    width: 100%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo{
+    height: 8%;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    
+  
+}
+
+img{
+    height: 80px;
+    width: 80px;   
+     margin: 5px;
+    border-radius: 15px;
+   
+}
+
+.menu{
+    height:50px ;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+h1{
+    font-family: 'Bahiana', cursive;
+    font-size: 50px;
+}
+
+.centro{
+    height: 2550px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.item{
+ background-color:  rgb(175, 164, 164);
+ height: 100%;
+ width: 50%;
+ border-radius: 15px;
+ padding: 10px;
+ margin: 15px;
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ align-items: center;
+ text-align: justify;
+ 
+
+ 
+}
+
+h2{
+    font-family: 'Bahiana', cursive;
+}
+
+h3{
+    font-family: 'Bahiana', cursive;
+}
+
+h4{
+    font-family: 'Bahiana', cursive;
+}
+
+
+
+.caixa{
+    
+    width: 97%;
+    background-color: rgb(175, 164, 164);
+    border-radius: 15px;
+    margin: 10px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#grafico{
+    height: 400px;
+    width: 80%;   
+     margin: 5px;
+    border-radius: 15px;
+}
+
+#imagens{
+    height: 300px;
+    width: 90%;
+}
+
+#imagem{
+    height: 437px;
+    width: 95%;
+}
+
+
+
+ 
+ 
